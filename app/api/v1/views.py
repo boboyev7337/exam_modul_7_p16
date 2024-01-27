@@ -21,3 +21,4 @@ class UserPasswordManagerAPIView(APIView):
     serializer_class = UserPasswordManagerSerializer
     authentication_classes = [TokenAuthentication]
     permission_classes = [IsAuthenticated]
+
